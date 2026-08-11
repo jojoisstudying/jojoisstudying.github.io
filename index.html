@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jojo — Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="nav-logo"></div>
+                <span>Jojo</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Featured Project -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                
+                <!-- Left: Hero Content -->
+                <div class="hero-content">
+                    <p class="hero-label">Hi — My Name is</p>
+                    <h1 class="hero-title">Rangga Joshua Maindra</h1>
+                    <p class="hero-tagline">Building functional web experiences with clean code</p>
+                    <p class="hero-description">I create responsive interfaces focused on usability and performance. My work combines design systems, front-end development, and attention to detail to build products that work.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn-primary">See my work</a>
+                        <a href="#contact" class="btn-text">Get in touch →</a>
+                    </div>
+                </div>
+
+                <!-- Right: Featured Project Card -->
+                <div class="hero-featured">
+                    <div class="featured-card">
+                        <div class="featured-header">
+                            <div class="featured-info">
+                                <h3>Featured Project</h3>
+                                <p>Budget tracking app with real-time calculations</p>
+                            </div>
+                            <div class="featured-meta">Web App</div>
+                        </div>
+                        <div class="featured-preview">
+                            <img src="Assets/Image/budget-tracker.png" alt="Budget Tracker">
+                        </div>
+                        <div class="featured-footer">
+                            <div class="featured-role">Role: Developer</div>
+                            <a href="https://jojoisstudying.github.io/Budget-Tracker/" target="_blank" class="btn-featured">Open</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-grid">
+                <div class="about-main">
+                    <p>I'm a first-year IT student focused on full-stack web development. I started coding with Scratch in elementary school and now build real applications with modern web technologies.</p>
+                    <p>My approach is simple: learn by building. Every project teaches me something new about code, design, or problem-solving. I believe good software is both functional and enjoyable to use.</p>
+                    
+                    <div class="about-specialties">
+                        <div class="specialty">
+                            <h4>Frontend</h4>
+                            <p>HTML, CSS, JavaScript, responsive design, modern frameworks</p>
+                        </div>
+                        <div class="specialty">
+                            <h4>Currently Learning</h4>
+                            <p>React, Node.js, databases, full-stack architecture</p>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="about-sidebar">
+                    <div class="info-card">
+                        <h4>Quick info</h4>
+                        <dl class="info-list">
+                            <dt>Location:</dt>
+                            <dd>Sidoarjo, Indonesia</dd>
+                            
+                            <dt>Education:</dt>
+                            <dd>IT Student, Year 1</dd>
+                            
+                            <dt>Focus:</dt>
+                            <dd>Full-stack Development</dd>
+                            
+                            <dt>Status:</dt>
+                            <dd>Open to learning opportunities</dd>
+                        </dl>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Semantic markup, accessibility</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Responsive layouts, modern design</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation, ES6+, logic</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version control, collaboration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            
+            <!-- Budget Tracker -->
+            <article class="project-item">
+                <div class="project-visual">
+                    <img src="Assets/Image/budget-tracker.png" alt="Budget Tracker">
+                </div>
+                <div class="project-details">
+                    <div class="project-header">
+                        <h3>Budget Tracker</h3>
+                        <span class="project-year">2026</span>
+                    </div>
+                    <p class="project-description">A responsive budget tracking application with real-time balance calculation, data visualization using Chart.js, and persistent local storage. Built with vanilla JavaScript for performance and simplicity.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Chart.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://jojoisstudying.github.io/Budget-Tracker/" target="_blank" class="btn-primary">Live Demo</a>
+                        <a href="https://github.com/jojoisstudying/Budget-Tracker" target="_blank" class="btn-secondary">View Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-item">
+                <div class="project-visual">
+                    <img src="Assets/Image/pricewise-landing.png" alt="Budget Tracker">
+                </div>
+                <div class="project-details">
+                    <div class="project-header">
+                        <h3>Pricewise Landing Page</h3>
+                        <span class="project-year">2026</span>
+                    </div>
+                    <p class="project-description">A professional landing page for a pricing calculator system built as a school project. Features structured problem/solution presentation, interactive data visualization with charts, and clean responsive design.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Chart.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://jojoisstudying.github.io/pricewise-landing/" target="_blank" class="btn-primary">Live Demo</a>
+                        <a href="https://github.com/jojoisstudying/pricewise-landing/" target="_blank" class="btn-secondary">View Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Placeholder -->
+            <article class="project-item project-placeholder">
+                <div class="project-details">
+                    <h3>More projects in development</h3>
+                    <p class="project-description">Currently building and learning. New work coming soon.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Contact</h2>
+                <p class="contact-text">Open to collaboration, freelance opportunities, or just connecting with other developers.</p>
+                
+                <div class="contact-methods">
+                    <a href="https://github.com/jojoisstudying" target="_blank" class="contact-card">
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-arrow">→</span>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="contact-card">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Jojo. Built with focus and intention.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
