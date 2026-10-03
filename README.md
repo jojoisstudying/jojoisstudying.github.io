@@ -1,63 +1,23 @@
-DATE: February 18, 2026 (Day 2)
+# Hi there, I'm Rangga Joshua Maindra 👋
 
-BUILT: Professional Portfolio Website
-LINK: https://jojoisstudying.github.io
+I'm a Developer & Student focused on building practical web apps, data projects, and automated workflows.
 
-WHAT I LEARNED:
-- Advanced CSS Grid layouts (two-column hero section)
-- Glass morphism design with backdrop-filter
-- CSS custom properties (variables) for theming
-- Professional typography hierarchy
-- Grid alignment with align-items
-- Sticky navigation with backdrop-blur
-- Responsive grid systems that adapt to mobile
-- File organization with assets folders
-- Relative file paths for images
-- GitHub repository structure best practices
-- Writing professional README files
-- Dark mode color theory and design
+---
 
-KEY TECHNIQUES:
-- Two-column layout with featured project card
-- Gradient text effects with background-clip
-- Smooth hover transitions
-- Grid template columns with fr units
-- Manual spacing adjustments with negative margins
-- Image object-fit for responsive images
-- Definition lists (dl, dt, dd) for info cards
+### 🛠️ Languages & Tools
 
-DEBUGGING MOMENTS:
-- Fixed grid alignment issues with align-items: start
-- Adjusted Quick info card position with margin-top: -65px
-- Learned when "proper" CSS isn't worth the complexity vs manual fixes
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-DESIGN LESSONS:
-- No emojis for professional portfolios
-- Compact information density > wasted space
-- Featured project spotlight creates visual hierarchy
-- Clean typography matters more than decoration
-- Dark mode with subtle glass effects feels modern
-- Reference designs help but building from scratch teaches more
+---
 
-PROJECT STRUCTURE:
-portfolio/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   └── budget-tracker.png
-└── README.md
+### 📊 GitHub Stats
 
-NEXT SESSION GOALS:
-- Add more projects as I build them
-- Maybe add smooth scroll animations
-- Consider learning React to rebuild Budget Tracker
-- Start planning next project (todo list? password generator?)
-
-CONFIDENCE LEVEL: 📈
-- Day 1: Scared about the future, felt useless
-- Day 2: Built a professional portfolio, understand CSS grid, ready for more
-
-PORTFOLIO COUNT: 2 live projects
-1. Budget Tracker - https://jojoisstudying.github.io/Budget-Tracker/
-2. Portfolio Website - https://jojoisstudying.github.io/
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jojoisstudying&show_icons=true&theme=tokyonight" alt="Rangga's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jojoisstudying&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
